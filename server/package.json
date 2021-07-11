@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --legacy-watch index.ts",
+    "dev": "nodemon --legacy-watch index.ts"
+  },
+  "author": "Joan Lleonard Ruiz Albiñana",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.5",
+    "bcrypt": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.39",
+    "@types/cors": "^2.8.5",
+    "@types/compression": "^1.7.1",
+    "@types/express": "^4.17.1",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/passport": "^0.4.1",
+    "@types/sequelize": "^4.28.10",
+    "@types/bcrypt": "^5.0.0"
+  }
+}
